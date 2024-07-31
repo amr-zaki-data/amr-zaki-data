@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hello, I'm Amr Zaki 👋
 
-<!--
-**amr-zaki-data/amr-zaki-data** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Data Analyst with a passion for uncovering insights from data and helping businesses make data-driven decisions.
 
-Here are some ideas to get you started:
+## Skills & Technologies
+- Data Analysis
+- Python, SQL, Excel
+- Machine Learning
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Currently Working On
+- Analyzing the Adult Income Dataset to explore income-related insights.
+- Learning advanced machine learning techniques.
+
+## Featured Projects
+- [Adult Income Dataset Analysis](https://github.com/Amr-Zaki-Data-Scientist/Adult_Income-analysis) - A project analyzing income data to uncover key patterns and predictions.
+- [Project 2](link-to-project) - Brief description of the project.
+
+## Contact
+- [LinkedIn](https://www.linkedin.com/in/amr-zaki-16924a217/)
+- [Email](mailto:your.email@example.com)
+
+## Certifications
+- Google Data Analytics Professional Certificate
+
