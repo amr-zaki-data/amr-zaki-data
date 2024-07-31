@@ -7,7 +7,7 @@
 
 - 📋 Check out My Resume at [**Resume**]([https://docs.google.com/document/d/1CaCilGi21X6FhR_UL8C14c5wqQTVG-W_/edit?usp=sharing&ouid=114996828737559694387&rtpof=true&sd=true](https://amr-zaki.web.app/pdf/resume.pdf))
 
-- 👨‍💻 All of my projects are available at [**My Portfolio**]([https://personal-portfolio-288e7.firebaseapp.com/](https://amr-zaki.web.app/))
+- 👨‍💻 All of my projects are available at [**My Portfolio**](https://amr-zaki.web.app/)
 
 - 💬 Ask me about **Data Science, Data Analytics**
 
