@@ -5,17 +5,15 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=amr-zaki&label=Profile%20views&color=0e75b6&style=flat" alt="amr-zaki" /> </p>
 
-- 📋 Check out My Resume at [**Resume**](https://docs.google.com/document/d/1CaCilGi21X6FhR_UL8C14c5wqQTVG-W_/edit?usp=sharing&ouid=114996828737559694387&rtpof=true&sd=true)
+- 📋 Check out My Resume at [**Resume**]([https://docs.google.com/document/d/1CaCilGi21X6FhR_UL8C14c5wqQTVG-W_/edit?usp=sharing&ouid=114996828737559694387&rtpof=true&sd=true](https://amr-zaki.web.app/pdf/resume.pdf))
 
-- 👨‍💻 All of my projects are available at [**My Portfolio**](https://personal-portfolio-288e7.firebaseapp.com/)
+- 👨‍💻 All of my projects are available at [**My Portfolio**]([https://personal-portfolio-288e7.firebaseapp.com/](https://amr-zaki.web.app/))
 
-- 💬 Ask me about **Machine Learning, Deep Learning, Data Science, Data Analytics**
+- 💬 Ask me about **Data Science, Data Analytics**
 
 - 📫 How to reach me **z.amr80@gmail.com**
 
 - ⚡ Fun fact **I'm passionate about learning new things**
-
-- 📍 Check out some Projects on [**Google Play**](https://play.google.com/store/apps/dev?id=7064940667463374728)
 
 - 📊 Check out Tableau Projects at [**Tableau**](https://public.tableau.com/app/profile/amr.zaki)
 
