@@ -2,8 +2,8 @@
 
 I'm a Data Analyst with a passion for uncovering insights from data and helping businesses make data-driven decisions.
 
-## Introduction Video
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/VIDEO_ID)
+## Introduction GIF
+![Intro GIF](https://camo.githubusercontent.com/4c8e8391a8daa016bef8de0832c4b7530a202cd7203f75795b0011954148e59a/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f66632f37312f36332f66633731363335633766316230396564333034313366353962623734393538322e676966)
 
 ## Skills & Technologies
 - Data Analysis
