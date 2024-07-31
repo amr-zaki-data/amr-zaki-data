@@ -5,7 +5,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=amr-zaki&label=Profile%20views&color=0e75b6&style=flat" alt="amr-zaki" /> </p>
 
-- 📋 Check out My Resume at [**Resume**]([https://docs.google.com/document/d/1CaCilGi21X6FhR_UL8C14c5wqQTVG-W_/edit?usp=sharing&ouid=114996828737559694387&rtpof=true&sd=true](https://amr-zaki.web.app/pdf/resume.pdf))
+- 📋 Check out My Resume at [**Resume**](https://amr-zaki.web.app/pdf/resume.pdf)
 
 - 👨‍💻 All of my projects are available at [**My Portfolio**](https://amr-zaki.web.app/)
 
