@@ -2,6 +2,9 @@
 
 I'm a Data Analyst with a passion for uncovering insights from data and helping businesses make data-driven decisions.
 
+## Introduction Video
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/VIDEO_ID)
+
 ## Skills & Technologies
 - Data Analysis
 - Python, SQL, Excel
@@ -21,4 +24,3 @@ I'm a Data Analyst with a passion for uncovering insights from data and helping 
 
 ## Certifications
 - Google Data Analytics Professional Certificate
-
