@@ -1,0 +1,127 @@
+# Install necessary packages
+# Uncomment the lines below to install packages if not already installed
+# !pip install pandas matplotlib numpy seaborn
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
+import os
+
+# File path
+filepath = r"C:\Users\zamr8\Downloads\archive\adult.csv"
+
+# Check if the file exists and load data
+if os.path.exists(filepath):
+    try:
+        data = pd.read_csv(filepath)
+        print("File read successfully")
+    except PermissionError:
+        print(f"Permission denied: '{filepath}'")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+else:
+    print(f"File not found: '{filepath}'")
+
+# Display current working directory
+print(os.getcwd())
+
+# Change directory (if needed)
+os.chdir(r"C:\Users\zamr8\Downloads\archive")
+
+# Reload data (if directory changed)
+data = pd.read_csv('adult.csv')
+
+# Display first and last rows
+print(data.head())
+print(data.tail())
+
+# Display the shape and info of the dataset
+print('Number of Rows:', data.shape[0])
+print('Number of Columns:', data.shape[1])
+data.info()
+
+# Drop unnecessary columns
+data = data.drop(['fnlwgt', 'educational-num', 'capital-gain', 'capital-loss'], axis=1)
+
+# Check for missing values
+print(data.isnull().sum())
+sns.heatmap(data.isnull(), cbar=False)
+plt.title('Missing Values Heatmap')
+plt.show()
+
+# Replace '?' with NaN and drop missing values
+data = data.replace('?', np.nan)
+print(data.isnull().sum())
+data.dropna(inplace=True)
+print(data.duplicated().any())
+
+# Remove duplicate rows
+data = data.drop_duplicates()
+print(data.duplicated().any())
+
+# Display statistical summary
+print(data.describe())
+print(data.describe(include='all'))
+
+# Analyze unique values in 'education' column
+print(data['education'].unique())
+
+# Visualization: Barplot of education vs income
+plt.figure(figsize=(15, 7))
+data_sorted = data.sort_values(by='income')
+sns.barplot(x=data_sorted['education'], y=data_sorted['income'], data=data_sorted)
+plt.xticks(rotation=45)
+plt.title('Education vs Income')
+plt.show()
+
+# Visualization: Histogram of age
+data['age'].hist()
+plt.title('Age Distribution')
+plt.show()
+
+# Count the number of people aged between 18 and 60
+print('Number of people aged between 18 and 60:', sum(data['age'].between(18, 60)))
+
+# Visualization: Histogram of workclass
+plt.figure(figsize=(10, 12))
+data['workclass'].hist()
+plt.title('Workclass Distribution')
+plt.show()
+
+# Count the number of people with Bachelor’s or Master’s degree
+print('Number of people with Bachelor’s or Master’s degree:', sum(data['education'].isin(['Bachelors', 'Masters'])))
+
+# Display value counts for education
+print(data['education'].value_counts())
+
+# Visualization: Boxplot of age vs income
+sns.boxplot(x='income', y='age', data=data)
+plt.title('Boxplot of Age vs Income')
+plt.show()
+
+# Visualization: Countplot of income
+sns.countplot(x='income', data=data)
+plt.title('Income Count')
+plt.show()
+
+# Apply function to categorize income
+def salary(sal):
+    if sal == '<=50K':
+        return 'Low'
+    else:
+        return 'High'
+
+data['IncomeLevel'] = data['income'].apply(salary)
+print(data.head())
+
+# Replace income values with numerical codes
+data.replace(to_replace=['<=50K', '>50K'], value=[0, 1], inplace=True)
+
+# Group by workclass and gender, then calculate mean income
+print(data.groupby('workclass')['income'].mean().sort_values(ascending=False))
+print(data.groupby('gender')['income'].mean().sort_values(ascending=False))
+
+# Convert workclass column to category type
+data['workclass'] = data['workclass'].astype('category')
+print(data['workclass'].dtype)
